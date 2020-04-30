@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<Meta Charset="UTF-8">
+
+<title>Survey Form</title>
+</head>
+
+<body style="background-color:#F0B27A;">
+<h1>Survey Form</h1>
+
+<img src="art.jpg" alt="Art">
+<br><br>
+
+<form action="/action_page.php">
+  <label for="fname">Name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Email:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+
+<label for="Age">Age:</label>
+  <input type="number" id="Age" name="Age"><br><br>
+
+<label for="fname">What do you Own:</label>
+<br>
+<input style="display:none">
+  <input type="checkbox" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" name="vehicle3" value="Boat" checked>
+  <label for="vehicle3"> I have a boat</label><br><br>
+
+
+          
+          <p>
+             <label>Fav Food</label>
+             <select id = "myList">
+               <option value = "1">Pizza</option>
+               <option value = "2">Pasta</option>
+               <option value = "3">Orange Juice</option>
+               <option value = "4">Sweet</option>
+             </select>
+          </p><br>
+
+<label for="fname">Areas of Improvement:</label>
+<br>
+  <input type="checkbox" name="A1" value="Front End">
+  <label for="A1"> Front End Dev</label><br>
+  <input type="checkbox" name="A2" value="Back End Dev">
+  <label for="A2"> Backend Dev</label><br>
+  <input type="checkbox" name="A" value="Touch Up" checked>
+  <label for="A3"> Touch Up</label><br><br>
+
+
+  <input type="submit" value="Submit">
+
+
+</form>
+
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+
+</body>
+</html>
+
+
+
